@@ -1,0 +1,57 @@
+{
+  "endOfLine": "crlf",
+  "overrides": [
+    {
+      "files": "*.[ts,tsx]",
+      "options": {
+        "arrowParens": "always",
+        "jsxSingleQuote": false,
+        "singleQuote": false,
+        "semi": true,
+        "bracketSpacing": true,
+        "useTabs": false,
+        "tabWidth": 2,
+        "trailingComma": "all",
+        "printWidth": 120
+      }
+    },
+    {
+      "files": "*.[js,jsx]",
+      "options": {
+        "arrowParens": "always",
+        "jsxSingleQuote": false,
+        "singleQuote": true,
+        "semi": true,
+        "bracketSpacing": true,
+        "useTabs": false,
+        "tabWidth": 2,
+        "trailingComma": "all",
+        "printWidth": 80
+      }
+    },
+    {
+      "files": "*.scss",
+      "options": {
+        "singleQuote": false,
+        "semi": true,
+        "useTabs": false,
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": "*.css",
+      "options": {
+        "singleQuote": false,
+        "semi": true,
+        "useTabs": false,
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": "*.html",
+      "options": {
+        "printWidth": 800
+      }
+    }
+  ]
+}
